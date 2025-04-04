@@ -56,7 +56,7 @@ function displayResults(results) {
                         <p class="card-text"><strong>Especialidad:</strong> ${doctor.specialty}</p>
                         <p class="card-text"><strong>Ciudad:</strong> ${doctor.city}</p>
                         <p class="card-text"><strong>País:</strong> ${doctor.country}</p>
-                        <button class="btn btn-primary" onclick="openChat('${doctor.name}')">Iniciar Chat</button>
+                        <button class="btn btn-primary" onclick="openChat('${doctor.name}')">Ver más</button>
                     </div>
                 </div>
             </div>
